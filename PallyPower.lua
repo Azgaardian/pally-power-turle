@@ -415,7 +415,7 @@ function PallyPower_ScanSpells()
             end
           end
         else
-          local _, _, bless = string.find(spellName, PallyPower_ManBlessingSpellSearch)
+          local _, _, bless = string.find(spellName, PallyPower_BlessingSpellSearch)
           if bless then
             
               for id, name in PallyPower_BlessingID do
